@@ -1,5 +1,9 @@
 {
   "extends" : [
     "@rocketseat/eslint-config/node"
-  ]
+  ],
+  "rules" : {
+    "camelcase" : "off"
+    // "no-unused-vars" : ["error", { "argsIgnorePattern" : "next" }]
+  }
 }
