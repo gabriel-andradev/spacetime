@@ -1,6 +1,6 @@
 export function Copyright() {
   return (
-    <>
+    <div>
       Feito com 💙 por{' '}
       <a
         target="_blank"
@@ -10,6 +10,6 @@ export function Copyright() {
       >
         gandrade.dev
       </a>
-    </>
+    </div>
   )
 }
