@@ -15,8 +15,6 @@ export function NewMemoryForm() {
 
     const formData = new FormData(event.currentTarget)
 
-    console.log(Array.from(formData.entries()))
-
     const fileToUpload = formData.get('coverUrl')
 
     let coverUrl = ''
@@ -31,8 +29,6 @@ export function NewMemoryForm() {
     }
 
     const token = Cookie.get('token')
-
-    console.log(token)
 
     await api.post(
       '/memories',

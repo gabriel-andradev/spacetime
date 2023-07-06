@@ -16,6 +16,5 @@ export function getUser(): User {
 
   const user: User = decode(token)
 
-  console.log(user)
   return user
 }
