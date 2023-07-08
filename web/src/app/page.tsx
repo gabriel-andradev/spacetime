@@ -31,7 +31,7 @@ export default async function Home() {
 
   const memories: Memory[] = response.data
 
-  if (memories.length === 0) {
+  if (!!memories && memories.length === 0) {
     return <EmptyMemories />
   }
 
@@ -57,6 +57,7 @@ export default async function Home() {
 
             <Link
               href={`/memories/${memory.id}`}
+              passHref
               className="flex items-center gap-2 text-sm text-gray-200 hover:text-gray-100"
             >
               Ler mais
