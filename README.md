@@ -61,8 +61,8 @@ A seguir estão algumas capturas de tela do design da aplicação:
   <p align="center"><em>Etapas</em></p> 
   <div align="center">
     <img src="https://github.com/gabriel-andradev/spacetime/assets/101130704/b56170b6-2766-4318-8432-7ce2f610a490" alt="Captura de tela 2 - Entrada no site sem estar logado" />
-    <img src="https://github.com/gabriel-andradev/spacetime/assets/101130704/714f37bc-7a23-4bd5-853b-80bb683cfe20" height="240em" alt="Captura de tela 3 - Logado na aplicação" />
-    <img src="https://github.com/gabriel-andradev/spacetime/assets/101130704/a52662b8-d4f2-43d5-ba8c-f06fe84f200a" height="240em" alt="Captura de tela 4 - Compartilhando uma lembrança" />
+    <img src="https://github.com/gabriel-andradev/spacetime/assets/101130704/714f37bc-7a23-4bd5-853b-80bb683cfe20" alt="Captura de tela 3 - Logado na aplicação" />
+    <img src="https://github.com/gabriel-andradev/spacetime/assets/101130704/a52662b8-d4f2-43d5-ba8c-f06fe84f200a" alt="Captura de tela 4 - Compartilhando uma lembrança" />
     <img src="https://github.com/gabriel-andradev/spacetime/assets/101130704/183f596b-ef6e-489e-abd9-3d3e95100624" alt="Captura de tela 5 - Exibição de uma lembrança" />
   </div>
 </p>
