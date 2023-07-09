@@ -1,5 +1,5 @@
 # NLW Spacetime - Trilha Ignite: Cápsula do tempo
-Software de lembranças para guardá-las e compartilhá-las com quem quiser!
+Software de lembranças para guardá-las e compartilhá-las com quem e onde quiser!
 
 ## ✔️ Linguagens e tecnologias utilizadas
 
@@ -95,9 +95,11 @@ GITHUB_CLIENT_SECRET="" # Insira o Client Secret obtido do GitHub
 ```
 $ npm run dev
 ```
+
 Certifique-se de substituir as informações entre aspas nas variáveis do arquivo `.env` pelos valores corretos. Para obter mais informações sobre como obter o Client ID e o Client Secret do GitHub, siga as instruções apropriadas na documentação do GitHub ou pela documentação oficial do GitHub.
 
 Lembrando que é necessário ter o arquivo `dev.db` do Prisma no local especificado no arquivo `.env`.
+
 ### Configuração do Frontend
 
 1. No diretório raiz do projeto, navegue até a pasta "web" usando o terminal.
