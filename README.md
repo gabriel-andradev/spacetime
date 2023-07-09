@@ -79,10 +79,25 @@ Para rodar esta aplicação, você precisará ter o Node.js e o NPM instalados e
 $ npm install
 $ npx prisma migrate dev
 ```
-3. Em seguida, execute o comando abaixo para iniciar o servidor:
+3. Crie um arquivo `.env` na raiz do diretório "server" e configure as seguintes variáveis:
+```
+# Database
+DATABASE_URL="file:./dev.db" # Insira o caminho para o arquivo dev.db do Prisma
+
+# Github
+GITHUB_CLIENT_ID="" # Insira o Client ID obtido do GitHub
+GITHUB_CLIENT_SECRET="" # Insira o Client Secret obtido do GitHub
+
+```
+> Você pode obter o Client ID e o Client Secret do GitHub seguindo as instruções em [Creating an OAuth App](https://docs.github.com/pt/apps/oauth-apps/building-oauth-apps/creating-an-oauth-app).
+
+4. Em seguida, execute o comando abaixo para iniciar o servidor:
 ```
 $ npm run dev
 ```
+Certifique-se de substituir as informações entre aspas nas variáveis do arquivo `.env` pelos valores corretos. Para obter mais informações sobre como obter o Client ID e o Client Secret do GitHub, siga as instruções apropriadas na documentação do GitHub ou pela documentação oficial do GitHub.
+
+Lembrando que é necessário ter o arquivo `dev.db` do Prisma no local especificado no arquivo `.env`.
 ### Configuração do Frontend
 
 1. No diretório raiz do projeto, navegue até a pasta "web" usando o terminal.
